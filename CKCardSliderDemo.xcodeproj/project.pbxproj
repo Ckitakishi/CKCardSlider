@@ -283,7 +283,7 @@
 				DEVELOPMENT_TEAM = 285BYEPY9U;
 				INFOPLIST_FILE = CKCardSliderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ckitakishi.CKCardSliderDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = ckitakishi.com.CKCardSliderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -295,7 +295,7 @@
 				DEVELOPMENT_TEAM = 285BYEPY9U;
 				INFOPLIST_FILE = CKCardSliderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ckitakishi.CKCardSliderDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = ckitakishi.com.CKCardSliderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -319,6 +319,7 @@
 				1137867E1ECDE7E100DCDA39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

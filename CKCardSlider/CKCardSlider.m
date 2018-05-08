@@ -16,6 +16,8 @@
     _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, rect.size.width, rect.size.height)];
     _scrollView.pagingEnabled = YES;
     _scrollView.clipsToBounds = YES;
+    _scrollView.showsVerticalScrollIndicator = NO;
+    _scrollView.showsHorizontalScrollIndicator = NO;
     _scrollView.bounces = NO;
     _scrollView.contentOffset = CGPointZero;
     _scrollView.delegate = self;
@@ -26,7 +28,7 @@
 
 - (void)setCardsArray:(NSArray *)cardsArray {
     _scrollView.contentSize = CGSizeMake(self.width * cardsArray.count, self.height);
-    for (int i = 0; i < [cardsArray count]; i ++) {
+    for (int i = 0; i < cardsArray.count; i ++) {
         UIView *currentView = cardsArray[i];
         currentView.frame = CGRectMake(self.width * i, 0, self.width, self.height);
         [_scrollView addSubview:currentView] ;
@@ -67,7 +69,6 @@
     return _scrollView.bounds.size.height;
 }
 
-
 #pragma mark -
 #pragma scrollView Delegate
 - (void)scrollViewDidEndDecelerating:(CKCardSlider *)scrollView
@@ -75,15 +76,6 @@
     NSInteger index = fabs(_scrollView.contentOffset.x) / _scrollView.frame.size.width;
     [_pageControl setCurrentPage:index];
 }
-
-
-/*
- // Only override drawRect: if you perform custom drawing.
- // An empty implementation adversely affects performance during animation.
- - (void)drawRect:(CGRect)rect {
- // Drawing code
- }
- */
 
 @end
 

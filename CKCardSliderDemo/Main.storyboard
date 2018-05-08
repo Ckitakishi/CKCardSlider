@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,19 +24,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CqZ-qx-rx3">
-                                <rect key="frame" x="0.0" y="40" width="414" height="625.66666666666663"/>
+                                <rect key="frame" x="4" y="40" width="406" height="609"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="CqZ-qx-rx3" secondAttribute="height" multiplier="2:3" constant="-3" id="tbP-8k-O0q"/>
+                                    <constraint firstAttribute="width" secondItem="CqZ-qx-rx3" secondAttribute="height" multiplier="2:3" id="tbP-8k-O0q"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="CqZ-qx-rx3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="AfD-Kt-tYE"/>
-                            <constraint firstItem="CqZ-qx-rx3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ErF-ge-Icl"/>
+                            <constraint firstItem="CqZ-qx-rx3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="ErF-ge-Icl"/>
                             <constraint firstItem="CqZ-qx-rx3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L6B-Kk-V2s"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="CqZ-qx-rx3" secondAttribute="trailing" constant="-20" id="OFc-2K-31T"/>
                         </constraints>
                     </view>
                     <connections>
@@ -45,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.5234375" y="136.16398243045387"/>
+            <point key="canvasLocation" x="136.23188405797103" y="136.14130434782609"/>
         </scene>
     </scenes>
 </document>
